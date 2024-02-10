@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>Test</title>
+    <link rel="stylesheet" href="assets/stylesheets/light.css" />
+</head>
+<body>
+  <div class="body__wrapper">
+    <section class="section__form" data-plugin="fadeInOut">
+      <form action="" class="form__body">
+        <div class="form__group">
+          <label for="textfield">Text Field:</label>
+          <input type="text" id="textfield" name="textfield" required>
+        </div>
+        <div class="form__group">
+          <label for="phonefield1">Phone Number 1:</label>
+          <input type="tel" id="phonefield1" name="phonefield1" required>
+        </div>
+        <div class="form__group">
+          <label for="phonefield2">Phone Number 2:</label>
+          <input type="tel" id="phonefield2" name="phonefield2" required>
+        </div>
+        <button
+          class="form__submit-btn"
+          type="submit"
+        >
+          Submit
+        </button>
+      </form>
+    </section>
+    <section class="section__content">
+      <div class="content__part_container">
+        <img
+          class="lazyload content__image"
+          data-src="images/image-default.jpg"
+          data-srcset="images/image-512.jpg 512w, images/image-768.jpg 768w, images/image-1280.jpg 1280w"
+          sizes="(max-width: 512px) 512px, (max-width: 768px) 768px, 1280px"
+          alt="Image description"
+        >
+      </div>
+      <div class="content__part_container content__part_text-part">
+        <h1 class="content__title">Lorem Title</h1>
+        <p class="content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus enim asperiores libero hic sit, dignissimos facilis qui beatae, fugiat rerum maxime, quae mollitia tempore sunt! Temporibus fugiat atque officia tempore?</p>
+      </div>
+    </section>
+
+    <script src="assets/javascripts/main.js"></script>
+</body>
+</html>

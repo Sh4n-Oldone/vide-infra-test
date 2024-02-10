@@ -1,0 +1,52 @@
+.section__form {
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px; }
+  .section__form .form__body {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px; }
+    .section__form .form__body .form__group {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px; }
+      .section__form .form__body .form__group label {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #000; }
+      .section__form .form__body .form__group input {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #000;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-weight: 400;
+        color: #000; }
+      .section__form .form__body .form__group .error {
+        color: #ff0000;
+        font-size: 1rem;
+        font-weight: 400; }
+    .section__form .form__body .form__submit-btn {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      background-color: #7f15e8;
+      color: #fff;
+      padding: 10px 30px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: bold;
+      text-transform: uppercase;
+      transition: background-color 0.3s ease;
+      clip-path: rect(0, auto, auto, 50%); }
+
+/*# sourceMappingURL=section__form.css.map */
